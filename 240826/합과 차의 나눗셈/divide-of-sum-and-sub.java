@@ -10,6 +10,6 @@ public class Main {
 
         double c = Math.round((a+b)/(double)(a-b)*100)/100.0;
 
-        System.out.print(c);
+        System.out.printf("%.2f",c);
     }
 }
