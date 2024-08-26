@@ -6,6 +6,12 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
 
-        System.out.print(n >= 3000 ? "book" : "mask");
+        if(n >= 3000){
+            System.out.print("book");
+        }else if(n == 0){
+            System.out.print("no");
+        }else{
+            System.out.print("mask");
+        }
     }
 }
