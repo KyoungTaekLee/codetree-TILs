@@ -6,12 +6,12 @@ public class Main {
         Scanner sc = new Scanner(System.in);
 
         int humanOneAge = sc.nextInt();
-        char humanOneSex = sc.next().charAt(0);
+        String humanOneSex = sc.next();
         
         int humanTwoAge = sc.nextInt();
-        char humanTwoSex = sc.next().charAt(0);
+        String humanTwoSex = sc.next();
 
-        if( (humanOneAge >= 19 && humanOneSex == 'M') || (humanTwoAge >= 19 && humanTwoSex == 'M') ){
+        if( (humanOneAge >= 19 && humanOneSex.equals("M")) || (humanTwoAge >= 19 && humanTwoSex.equals("M")) ){
             System.out.print(1);
         }else {
             System.out.print(0);
