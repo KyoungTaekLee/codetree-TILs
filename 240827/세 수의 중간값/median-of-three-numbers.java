@@ -14,7 +14,7 @@ public class Main {
         if ((arr[1] > arr[0]) && (arr[1] < arr[2])){
             System.out.print(1);
         }else {
-            System.out.print(2);
+            System.out.print(0);
         }
     }
 }
