@@ -11,7 +11,7 @@ public class Main {
         int humanTwoAge = sc.nextInt();
         String humanTwoSex = sc.next();
 
-        if( (humanOneAge >= 19 && humanOneSex.equals("M")) || (humanTwoAge >= 19 && humanTwoSex.equals("M")) ){
+        if( (humanOneAge >= 19 && humanOneSex == "M") || (humanTwoAge >= 19 && humanTwoSex == "M") ){
             System.out.print(1);
         }else {
             System.out.print(0);
