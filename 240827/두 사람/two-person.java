@@ -13,6 +13,8 @@ public class Main {
 
         if( (humanOneAge >= 19 && humanOneSex == 'M') || (humanTwoAge >= 19 && humanTwoSex == 'M') ){
             System.out.print(1);
+        }else {
+            System.out.print(0);
         }
     }
 }
